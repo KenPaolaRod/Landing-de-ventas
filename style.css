@@ -400,6 +400,42 @@ form input:focus {
   color: var(--color-semi-medium);
  }
 
+ footer {
+  display: grid;
+  row-gap: 1.8rem;
+  justify-items: center;
+  background-color: #E7F5EA;
+ }
+
+ .footer-links {
+  display: grid;
+  text-align: center;
+ }
+
+ .us {
+  padding-top: 3rem;
+ }
+
+ .footer-logo img {
+  width: 200px;
+ }
+
+ .footer-links h4 {
+  color: var(--color-semi-medium);
+ }
+
+ .footer-links a {
+  color: var(--color-dark);
+  text-decoration: none;
+  cursor: pointer;
+ }
+
+ .footer-links a:hover {
+  color: var(--color-medium);
+  font-weight: 400;
+  transition: ease-in-out 0.5s ;
+ }
+
 
 
 
