@@ -436,6 +436,16 @@ form input:focus {
   transition: ease-in-out 0.5s ;
  }
 
+ .social-media-icon {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: var(--color-medium);
+ }
+
+ .copright {
+  text-align: center;
+ }
+
 
 
 
@@ -527,6 +537,35 @@ h1 {
  .footer-img-box h3 {
   padding-top: 12rem;
  }
+
+ footer {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 3rem 0 1rem 0;
+ }
+
+ .footer-links {
+  row-gap: .2rem;
+ }
+
+ .copright {
+  grid-column: 1 / -1;
+  letter-spacing: .1rem;
+ }
+
+ .footer-logo img {
+  width: 170px;
+ }
+
+ .social-media {
+  grid-column: 1 / -1;
+ }
+
+ .social-media-icon {
+  padding:0  3rem;
+ }
+
 
 }
 
