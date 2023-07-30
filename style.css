@@ -20,6 +20,10 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
  display: grid;
  grid-template-columns: 1fr 1fr;
@@ -266,7 +270,7 @@ h1 span {
 
 .about-content-main-box {
   display: grid;
-  padding: 2rem;
+  padding: 1rem;
   row-gap: 1rem;
 }
 
@@ -357,7 +361,6 @@ form input:focus {
 
 .about-call-us-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   row-gap: .5rem;
@@ -370,7 +373,8 @@ form input:focus {
   background-color: var(--bg-color-dark);
   color: var(--bg-color-light);
   padding: .5rem;
-  border-radius: 50%;
+  border-radius: 10rem;
+  width: 1rem;
 }
 
  .about-call-us-box a {
@@ -475,6 +479,15 @@ form input:focus {
   font-size: 1.5rem;
   width: 2rem;
   padding: 0.5rem;
+}
+
+.about-call-us-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  row-gap: .5rem;
+  justify-self: end;
 }
 
 
@@ -665,7 +678,7 @@ h1 {
   }
 
   .about p {
-    width: 550px;
+    width: 390px;
   }
 
   .about-features-box {
@@ -699,6 +712,10 @@ h1 {
 
   .item-categories .fa-arrow-right {
     margin-left: -13rem;
+  }
+
+  .about p {
+    width: 570px;
   }
 
 
