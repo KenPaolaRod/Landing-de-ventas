@@ -283,8 +283,10 @@ h1 span {
 .about-icons {
   color: var(--color-semi-dark);
   border: 1px solid var(--color-semi-dark);
-  border-radius: 50%;
-  padding: .2rem;
+  border-radius: 10rem;
+  padding: .5rem;
+  width: 1rem;
+  text-align: center;
 }
 
 .about-features-box {
@@ -348,8 +350,6 @@ form input:focus {
 .about-call-to-action {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  -moz-column-gap: 3rem;
-       column-gap: 3rem;
   padding-top: 1.4rem;     
 }
 
@@ -483,11 +483,12 @@ form input:focus {
 
 .about-call-us-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: -webkit-min-content 1fr;
+  grid-template-columns: min-content 1fr;
   -moz-column-gap: 1rem;
        column-gap: 1rem;
   row-gap: .5rem;
-  justify-self: end;
+  justify-self: start;
 }
 
 
@@ -677,7 +678,7 @@ h1 {
     font-size: 2rem;
   }
 
-  .about p {
+  .about-main-text {
     width: 390px;
   }
 
@@ -714,7 +715,7 @@ h1 {
     margin-left: -13rem;
   }
 
-  .about p {
+  .about-main-text p {
     width: 570px;
   }
 
