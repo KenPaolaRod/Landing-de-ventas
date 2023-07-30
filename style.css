@@ -602,7 +602,7 @@ h1 {
   }
   
   .hero {
-  background-image: url(images/home-desktop-hero.jpg);
+  background-image: url(./images/home-desktop-hero.jpg);
   background-size: cover;
   }
 
