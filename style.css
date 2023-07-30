@@ -67,7 +67,7 @@ nav li a.active {
 .hero {
   width: 100vw;
   height: 90vh;
-  background-image: url(/images/home-mobile-hero.jpg);
+  background-image: url(images/home-mobile-hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -126,11 +126,11 @@ h1 span {
 }
 
 .breakfast-deal {
-  background-image: url(/images/home-breakfast-deal-bg.jpg);
+  background-image: url(images/home-breakfast-deal-bg.jpg);
 }
 
 .organic-deals {
-  background-image: url(/images/home-grocery-bg.png);
+  background-image: url(images/home-grocery-bg.png);
 }
 
 .home-deals-boxes {
@@ -387,7 +387,7 @@ form input:focus {
  .footer-img-box {
   width: 100%;
   height: 25rem;
-  background-image: url(/images/footer-img.jpg) ;
+  background-image: url(images/footer-img.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -495,14 +495,14 @@ form input:focus {
 
 @media screen and (min-width: 540px) {
 .hero {
-  background-image: url(/images/home-tablet-hero.jpg);
+  background-image: url(images/home-tablet-hero.jpg);
 }
 }
 
 @media screen and (min-width: 760px) {
 
 .hero {
-  background-image: url(/images/home-tablet-765-hero.jpg);
+  background-image: url(images/home-tablet-765-hero.jpg);
 }
 
 .hero article {
@@ -602,7 +602,7 @@ h1 {
   }
   
   .hero {
-  background-image: url(/images/home-desktop-hero.jpg);
+  background-image: url(images/home-desktop-hero.jpg);
   background-size: cover;
   }
 
