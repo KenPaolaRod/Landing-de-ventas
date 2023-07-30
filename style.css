@@ -277,6 +277,7 @@ h1 span {
 .about-content-main-box p {
   color: var(--color-semi-dark);
   font-size: 1rem;
+  line-height: 1.7rem;
 }
 
 .about-icons {
@@ -471,7 +472,6 @@ form input:focus {
 }
 
 .hero p {
-  font-size: 1.4rem;
   width: 300px;
 }
 
@@ -515,7 +515,7 @@ h1 {
 }
 
 .hero p {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   width: 500px;
 }
 
