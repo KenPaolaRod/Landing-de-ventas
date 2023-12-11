@@ -1,7 +1,8 @@
-# Landing de Negocio
+# Business Landing Page
+DEMO ----- https://kenpaolarod.github.io/Landing-de-ventas/
 
-Este proyecto es sobre una pagina web de un pequeño mercado que ademas hace servicios de delivery. 
+This project is about a website for a small marketplace that also does delivery services. 
 
-Tome un poco de inspiracion de https://dribbble.com/shots y cree el siguiente layout.
+I was inspired by https://dribbble.com/shots and created the following design.
 
 ![website](images/Layout.jpg)
